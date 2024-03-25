@@ -29,6 +29,7 @@
     "prettier": "^3.2.5"
   },
   "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "next lint",
     "**/*": "prettier --check ."
   }
 }
