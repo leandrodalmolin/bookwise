@@ -35,8 +35,14 @@ pnpm run preview
 pnpm run lint
 ```
 
-### Format all files with Prettier
+### Check Prettier format on all files
 
 ```bash
 pnpm run format
+```
+
+### Format all files with Prettier
+
+```bash
+pnpm run format:fix
 ```
