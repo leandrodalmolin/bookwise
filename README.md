@@ -7,48 +7,24 @@
 
 ## Pre-commit checks
 
-Husky will perform linter and formatter checks before commits. If an error occurs, please execute `pnpm lint` or `pnpm format:fix` to resolve it.
+Husky will perform the following checks before commits:
+
+- ESLint check
+- Prettier format check
+- Unit tests
+
+You can fix lint or format errors running:
+
+- `pnpm lint --fix`
+- `pnpm format:fix`
 
 ## Project Setup
 
-Follow these steps to set up the project:
-
-```bash
-pnpm install
-```
-
-### Start dev server
-
-```bash
-pnpm run dev
-```
-
-### Build for production
-
-```bash
-pnpm run build
-```
-
-### Preview production build locally
-
-```bash
-pnpm run preview
-```
-
-### Lint files
-
-```bash
-pnpm run lint
-```
-
-### Check Prettier format on all files
-
-```bash
-pnpm run format
-```
-
-### Format all files with Prettier
-
-```bash
-pnpm run format:fix
-```
+- Install: `pnpm install`
+- Dev server: `pnpm dev`
+- Production build: `pnpm build`
+- Preview production build: `pnpm preview`
+- Lint: `pnpm lint`
+- Prettier format check: `pnpm format`
+- Prettier format fix: `pnpm format:fix`
+- Unit tests: `pnpm test`
