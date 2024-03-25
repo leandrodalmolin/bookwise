@@ -2,6 +2,12 @@
 
 - Node v20.1.0
 - pnpm v8.15.5
+- VSCode ESLint extension
+- VSCode Prettier extension
+
+## Pre-commit checks
+
+Husky will perform linter and formatter checks before commits. If an error occurs, please execute `pnpm lint` or `pnpm format:fix` to resolve it.
 
 ## Project Setup
 
