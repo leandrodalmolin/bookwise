@@ -28,3 +28,9 @@ You can fix lint or format errors running:
 - Prettier format check: `pnpm format`
 - Prettier format fix: `pnpm format:fix`
 - Unit tests: `pnpm test`
+
+## Running E2E Tests
+
+It's recommended to run the tests against the production code to more closely resemble how the app will behave.
+
+Run `pnpm run build && pnpm run start` to build the app, then run `pnpm run cypress:open` in another terminal window to start Cypress and run your E2E testing suite.
