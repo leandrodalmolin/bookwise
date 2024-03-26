@@ -28,6 +28,9 @@ You can fix lint or format errors running:
 - Prettier format check: `pnpm format`
 - Prettier format fix: `pnpm format:fix`
 - Unit tests: `pnpm test`
+- E2E tests: `pnpm cypress:open`
+- Storybook dev: `pnpm storybook`
+- Storybook build: `pnpm build-storybook`
 
 ## Running E2E Tests
 
