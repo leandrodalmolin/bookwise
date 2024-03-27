@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "rm -rf .next && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "prepare": "husky",
+    "prepare": "husky && panda codegen",
     "test": "vitest",
     "cypress:open": "cypress open",
     "storybook": "storybook dev -p 6006",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.25",
+    "@pandacss/dev": "^0.36.1",
     "@storybook/addon-essentials": "^8.0.4",
     "@storybook/addon-interactions": "^8.0.4",
     "@storybook/addon-links": "^8.0.4",
