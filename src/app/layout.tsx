@@ -1,5 +1,12 @@
 import type { Metadata } from 'next'
+import { Nunito } from 'next/font/google'
+
 import './globals.css'
+
+const nunito = Nunito({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'BookWise',
@@ -13,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={nunito.className}>
       <body>{children}</body>
     </html>
   )
