@@ -21,7 +21,7 @@
       "@/*": ["./src/*"],
       "@styles/*": ["./styled-system/*"]
     },
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "@testing-library/jest-dom"]
   },
   "include": [
     "next-env.d.ts",
