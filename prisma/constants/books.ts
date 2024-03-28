@@ -4,9 +4,8 @@ export const books = [
     name: '14 Habits of Highly Productive Developers',
     author: 'Zeno Rocha',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url:
-      'public/images/books/14-habitos-de-desenvolvedores-altamente-produtivos.jpg',
+      'Unlock the secrets of productivity with "14 Habits of Highly Productive Developers". This essential guide offers practical insights and actionable tips to help developers excel in their craft. From goal setting to time management, this book is your roadmap to success in the fast-paced world of software development.',
+    cover_url: 'public/images/books/14-habits.jpg',
     total_pages: 160,
     categories: [
       {
@@ -24,8 +23,8 @@ export const books = [
     name: 'The Hobbit',
     author: 'J.R.R. Tolkien',
     summary:
-      'Semper et sapien proin vitae nisi. Feugiat neque integer donec et aenean posuere amet ultrices. Cras fermentum id pulvinar varius leo a in. Amet libero pharetra nunc elementum fringilla velit ipsum. Sed vulputate massa velit nibh',
-    cover_url: 'public/images/books/o-hobbit.jpg',
+      'Join Bilbo Baggins on a captivating journey through Middle-earth in "The Hobbit" by J.R.R. Tolkien. Follow the unlikely hero as he embarks on an epic quest filled with adventure, danger, and the discovery of courage he never knew he had. A timeless tale of friendship, bravery, and the triumph of good over evil.',
+    cover_url: 'public/images/books/the-hobbit.jpg',
     total_pages: 360,
     categories: [
       {
@@ -43,8 +42,8 @@ export const books = [
     name: "The Hitchhiker's Guide to the Galaxy",
     author: 'Douglas Adams',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/o-guia-do-mochileiro-das-galáxias.jpg',
+      'Embark on an intergalactic adventure with "The Hitchhiker\'s Guide to the Galaxy" by Douglas Adams. Follow the hilarious escapades of Arthur Dent as he navigates through space after Earth\'s unexpected demolition. A witty and whimsical journey through the cosmos filled with humor, absurdity, and profound insights.',
+    cover_url: 'public/images/books/the-hitchhikers.jpg',
     total_pages: 250,
     categories: [
       {
@@ -62,8 +61,8 @@ export const books = [
     name: 'Animal Farm',
     author: 'George Orwell',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/a-revolucao-dos-bixos.jpg',
+      'Discover George Orwell\'s timeless allegory of power and corruption in "Animal Farm". Follow the journey of farm animals as they rebel against their human oppressors, only to find themselves grappling with their own struggles for equality and justice. A captivating tale that offers profound insights into politics, society, and human nature.',
+    cover_url: 'public/images/books/animal-farm.jpg',
     total_pages: 350,
     categories: [
       {
@@ -81,8 +80,8 @@ export const books = [
     name: 'The End of Eternity',
     author: 'Isaac Asimov',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/o-fim-da-eternidade.jpg',
+      'Explore a riveting tale of time travel and its consequences in "The End of Eternity" by Isaac Asimov. Follow protagonist Andrew Harlan as he navigates through the complexities of altering history and the unforeseen impacts of his actions. A timeless classic that delves deep into the intricacies of time and humanity\'s quest for control.',
+    cover_url: 'public/images/books/the-end-of-eternity.jpg',
     total_pages: 165,
     categories: [
       {
@@ -100,8 +99,8 @@ export const books = [
     name: 'Grokking Algorithms',
     author: 'Aditya Y. Bhargava',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/entendendo-algoritmos.jpg',
+      'Master the fundamentals of algorithms with "Grokking Algorithms" by Aditya Bhargava. Dive into essential concepts through clear explanations and real-world examples. Perfect for beginners and experienced developers alike, this book demystifies the world of algorithms, making complex topics accessible to all.',
+    cover_url: 'public/images/books/grokking-algorithms.jpg',
     total_pages: 165,
     categories: [
       {
@@ -119,8 +118,8 @@ export const books = [
     name: 'Clean Code',
     author: 'Robert C. Martin',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/codigo-limpo.jpg',
+      'Elevate your coding skills with "Clean Code" by Robert C. Martin. Learn essential principles and practices for writing clear, maintainable, and efficient code. Whether you\'re a beginner or an experienced developer, this book is your guide to crafting software that stands the test of time.',
+    cover_url: 'public/images/books/clean-code.jpg',
     total_pages: 365,
     categories: [
       {
@@ -138,8 +137,8 @@ export const books = [
     name: 'The Power of Habit',
     author: 'Charles Duhigg',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/o-poder-do-habito.jpg',
+      'Uncover the science behind habits and how they shape our lives with "The Power of Habit" by Charles Duhigg. Learn how to harness the power of habit to transform your routines and achieve your goals. Discover the keys to unlocking lasting change in every aspect of your life.',
+    cover_url: 'public/images/books/the-power-of-habit.jpg',
     total_pages: 288,
     categories: [
       {
@@ -157,8 +156,8 @@ export const books = [
     name: 'Clean Architecture',
     author: 'Robert C. Martin',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/arquitetura-limpa.jpg',
+      'Discover the principles of writing clean, maintainable code with "Clean Architecture" by Robert C. Martin. Learn how to design software systems that are flexible, scalable, and easy to understand. Whether you\'re a seasoned developer or just starting out, this book will revolutionize the way you approach software design.',
+    cover_url: 'public/images/books/clean-architecture.jpg',
     total_pages: 288,
     categories: [
       {
@@ -176,8 +175,8 @@ export const books = [
     name: 'Extraordinary Tales',
     author: 'Edgar Allan Poe',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/historias-extraordinarias.jpg',
+      'From the greedy world, hungry for materialism, Poe has thrown himself into dreams. Smothered by the american atmosphere, he wrote at the head of Eureka: "I offer this book at those who have put their faith in dreams as in the only realities!" So it was an admirable protest; he was and he did it in his own way. The author who, in the Colloquium between Monos and Una, releases torrents his contempt and his disgust on democracy, progress and civilization, this author is the same who, to remove credulity, to delight the idleness of his people, has most energetically posited human sovereignty and most ingeniously crafted ducks the most flattering for the pride of modern man.',
+    cover_url: 'public/images/books/extraordinary-tales.jpg',
     total_pages: 332,
     categories: [
       {
@@ -195,8 +194,8 @@ export const books = [
     name: 'Refactoring',
     author: 'Martin Fowler',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/refatoracao.jpg',
+      'Elevate your coding skills with "Refactoring" by Martin Fowler. Learn essential techniques for improving code quality, readability, and maintainability without changing its external behavior. Whether you\'re a beginner or a seasoned developer, this book is your guide to writing cleaner and more efficient code.',
+    cover_url: 'public/images/books/refactoring.jpg',
     total_pages: 332,
     categories: [
       {
@@ -214,7 +213,7 @@ export const books = [
     name: 'Domain-Driven Design',
     author: 'Eric Evans',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
+      'Explore effective strategies for building software systems that closely match business needs with "Domain-Driven Design" by Eric Evans. Learn to create a shared language between developers and domain experts, design clear boundaries, and develop scalable solutions for your organization\'s domain.',
     cover_url: 'public/images/books/domain-driven-design.jpg',
     total_pages: 288,
     categories: [
@@ -233,8 +232,8 @@ export const books = [
     name: 'Journey to the Centre of the Earth',
     author: 'Julio Verne',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/viagem-ao-centro-da-terra.jpg',
+      'Embark on an unforgettable journey to the depths of the Earth with Jules Verne\'s timeless classic, "Journey to the Center of the Earth". Join Professor Otto Lidenbrock and his nephew, Axel, as they decode an ancient message and set off on a daring expedition to explore the mysteries hidden beneath the Earth\'s surface. Encounter prehistoric creatures, vast caverns, and treacherous terrain in this thrilling adventure that has captivated readers for generations. Discover the wonders of the subterranean world in this epic tale of exploration, curiosity, and the enduring spirit of adventure.',
+    cover_url: 'public/images/books/journey-centre-earth.jpg',
     total_pages: 288,
     categories: [
       {
@@ -252,8 +251,8 @@ export const books = [
     name: 'Fragments of Horror',
     author: 'Junji Ito',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/fragmentos-do-horror.jpg',
+      'Dive into the eerie and captivating world of horror manga with "Fragments of Horror" by Junji Ito. This collection of short stories delivers spine-chilling thrills and psychological twists that will leave you spellbound. Prepare to be drawn into a realm where nightmares lurk behind everyday facades. With stunning artwork and unforgettable narratives, "Fragments of Horror" offers a mesmerizing journey into the darkest corners of the imagination.',
+    cover_url: 'public/images/books/horror-fragments.jpg',
     total_pages: 144,
     categories: [
       {
@@ -268,11 +267,11 @@ export const books = [
   },
   {
     id: '66cb0f47-7e20-4492-b640-9c020fcae6f2',
-    name: 'Pragmatic Programmer',
+    name: 'The Pragmatic Programmer',
     author: 'Andrew Hunt',
     summary:
-      'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectus leo. Sit porta eget nec vitae sit vulputate eget',
-    cover_url: 'public/images/books/o-programador-pragmatico.jpg',
+      'Discover invaluable insights and practical tips for software developers in "The Pragmatic Programmer" by Andrew Hunt and David Thomas. This essential guide offers timeless advice on code craftsmanship, career development, and more, making it a must-read for programmers at every level.',
+    cover_url: 'public/images/books/the-pragmatic-programmer.jpg',
     total_pages: 205,
     categories: [
       {
