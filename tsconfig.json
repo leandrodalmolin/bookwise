@@ -21,7 +21,7 @@
       "@/*": ["./src/*"],
       "@styles/*": ["./styled-system/*"]
     },
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "@testing-library/jest-dom"]
   },
   "include": [
     "next-env.d.ts",
@@ -30,5 +30,5 @@
     ".next/types/**/*.ts",
     "vitest.config.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "./cypress.config.ts", "cypress"]
 }
