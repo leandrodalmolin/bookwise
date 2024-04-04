@@ -4,8 +4,9 @@ import { buttonStyles } from './button.styles'
 
 type ButtonVariants = RecipeVariantProps<typeof buttonStyles>
 
-export type ButtonProps = {
-  asChild?: boolean
-  children: ReactNode
-  icon?: ReactNode
-} & ButtonVariants
+export type ButtonProps = React.ComponentProps<'button'> &
+  ButtonVariants & {
+    asChild?: boolean
+    children: ReactNode
+    icon?: ReactNode
+  }
