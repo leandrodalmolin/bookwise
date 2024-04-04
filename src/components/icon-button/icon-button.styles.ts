@@ -7,7 +7,7 @@ export const iconButtonStyles = cva({
     color: 'brand.purple.100',
     bg: 'brand.gray.600',
     cursor: 'pointer',
-    transition: 'colors',
+    transition: 'background',
     _hover: {
       bg: 'brand.gray.500',
     },

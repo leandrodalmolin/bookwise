@@ -5,4 +5,7 @@ export const globalCss = defineGlobalStyles({
     bg: 'brand.gray.800',
     lineHeight: 'md',
   },
+  ':focus-visible': {
+    outline: '1px solid token(colors.brand.purple.100)',
+  },
 })

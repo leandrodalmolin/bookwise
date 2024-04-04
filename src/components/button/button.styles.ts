@@ -10,7 +10,7 @@ export const buttonStyles = cva({
     py: '1.5',
     textStyle: 'cta.md',
     cursor: 'pointer',
-    transition: 'colors',
+    transition: 'background',
   },
   variants: {
     color: {
